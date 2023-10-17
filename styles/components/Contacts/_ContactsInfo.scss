@@ -1,0 +1,27 @@
+.contacts-info {
+	&__link {
+		display: block;
+		display: flex;
+		align-items: center;
+		margin-bottom: 2rem;
+		transition: 300ms ease-in-out;
+
+		&:hover {
+			color: $color-primary;
+		}
+	}
+
+	&__icon {
+		font-size: 2.2rem;
+		margin-right: 1rem;
+
+		&.email {
+			font-size: 2.5rem;
+		}
+	}
+
+	&__address {
+		margin-top: 3rem;
+		font-style: normal;
+	}
+}

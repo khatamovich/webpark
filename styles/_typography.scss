@@ -1,0 +1,18 @@
+h2 {
+	font-size: 1.8rem;
+	font-size: clamp(2.2rem, 3vw, 4.2rem);
+	font-weight: $weight-semi;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-size: clamp(1.8rem, 3vw, 1.8rem);
+	color: $color-primary;
+	line-height: 1.2;
+}
+
+p {
+	font-size: $font-def;
+	font-size: clamp($font-small, 3vw, $font-def);
+}

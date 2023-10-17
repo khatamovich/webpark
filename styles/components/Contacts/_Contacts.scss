@@ -1,0 +1,25 @@
+.contacts {
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 7.5rem;
+
+		@media screen and (max-width: 760px) {
+			padding: 3rem;
+		}
+	}
+
+	&__image {
+		width: 45%;
+		transform: translateX(5rem);
+
+		@media screen and (max-width: 1050px) {
+			width: 90%;
+			margin: 0 auto;
+			transform: none;
+			margin-bottom: 7.5rem;
+		}
+	}
+}

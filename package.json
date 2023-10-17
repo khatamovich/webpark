@@ -1,0 +1,31 @@
+{
+  "name": "Визиточная страница веб-студии WebPark MCHJ",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "formik": "^2.2.9",
+    "hamburger-react": "^2.5.0",
+    "next": "12.1.6",
+    "node-sass": "^7.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-facebook-pixel": "^1.0.4",
+    "react-icons": "^4.4.0",
+    "react-number-format": "^4.9.3",
+    "react-scroll": "^1.8.7",
+    "sharp": "^0.30.7",
+    "swiper": "^8.2.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

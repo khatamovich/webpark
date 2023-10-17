@@ -1,0 +1,12 @@
+.services {
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+
+		@media screen and (max-width: 1050px) {
+			align-items: flex-start;
+		}
+	}
+}

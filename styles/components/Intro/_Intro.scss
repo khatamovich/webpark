@@ -1,0 +1,16 @@
+.intro {
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	&__image {
+		width: 45%;
+
+		@media screen and(max-width: 760px) {
+			width: 100%;
+		}
+	}
+}

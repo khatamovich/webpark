@@ -1,0 +1,30 @@
+.btn {
+	display: inline-block;
+	border-radius: 75px 35px;
+	padding: 0.9em 2em;
+	font-weight: $weight-semi;
+	font-size: clamp($font-small, 3vw, $font-def);
+	background: $color-primary;
+	color: $color-white;
+	border: 0;
+	outline: 0;
+	border: 1px solid transparent;
+	transition: 0.25s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		color: $color-primary;
+		border-color: $color-primary;
+		background: $color-white;
+	}
+}
+
+.shadow-box {
+	margin: 5rem 0;
+	background: $color-white;
+	border-radius: 20px;
+	box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
+	color: $color-dark;
+	padding: 5rem;
+	padding: clamp(2em, 3vw, 5rem);
+}

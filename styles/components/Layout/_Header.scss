@@ -1,0 +1,46 @@
+.header {
+	padding-top: 5rem;
+
+	@media screen and (max-width: 950px) {
+		position: fixed;
+		transition: 500ms ease-in-out;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		z-index: 999999;
+		padding: 1.5rem 0;
+		box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
+
+		.logo {
+			align-self: center;
+			transform: none;
+		}
+	}
+
+	&.animate {
+		top: 0;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+
+		.logo {
+			width: 170px;
+			width: clamp(125px, 15vw, 170px);
+			transform: translateY(0.5rem);
+		}
+	}
+
+	// Hamburger styles
+	.hamburger-react {
+		display: none;
+		z-index: 9999999;
+
+		@media screen and (max-width: 950px) {
+			display: block;
+		}
+	}
+}

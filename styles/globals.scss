@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+// Variables
+@import "vars";
+
+// Common styles
+@import "ui";
+@import "typography";
+
+// Styled components
+@import "./components/Layout/Header";
+@import "./components/Layout/Navbar";
+@import "./components/Hero/Hero";
+@import "./components/Hero/HeroMain";
+@import "./components/Hero/HeroHighlights";
+@import "./components/Intro/Intro";
+@import "./components/Intro/IntroMain";
+@import "./components/Partners/Partners";
+@import "./components/Partners/PartnersList";
+@import "./components/Partners/PartnersItem";
+@import "./components/Services/Services";
+@import "./components/Services/ServicesMain";
+@import "./components/Services/ServicesList";
+@import "./components/Services/ServicesItem";
+@import "./components/Contacts/Contacts";
+@import "./components/Contacts/ContactsMain";
+@import "./components/Contacts/ContactsInfo";
+@import "./components/SocialNetwork/SocialNetwork";
+@import "./components/SignUp/SignUp";
+@import "./components/SignUp/SignUpField";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  font-size: $font-def;
+  font-weight: $weight-def;
+  font-family: $family-primary, sans-serif;
+  color: $color-dark;
+  background: $color-light;
+  line-height: 1.5;
+}
+
+[href],
+[to] {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+}

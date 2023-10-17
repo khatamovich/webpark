@@ -1,0 +1,26 @@
+.services-item {
+	width: 30%;
+
+	@media screen and (max-width: 1050px) {
+		width: 46%;
+		margin: 2rem auto;
+	}
+
+	@media screen and (max-width: 760px) {
+		width: 90%;
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: $weight-semi;
+		margin-bottom: 0.5rem;
+	}
+
+	&__paragraph {
+		font-size: $font-small;
+
+		@media screen and (max-width: 760px) {
+			line-height: 1.75;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.sign-up {
+	width: 100%;
+	box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0);
+	padding: 3rem;
+	margin-top: 3rem;
+	border-radius: 1.5rem;
+	border: 1px solid #ccc;
+
+	&__title {
+		font-size: 2.5rem;
+		font-size: clamp(2.2rem, 3vw, 2.6rem);
+		margin-bottom: 1.5rem;
+	}
+
+	&__submit {
+		&.loading {
+			opacity: 0.75;
+		}
+	}
+
+	// Submit Status
+	.submit-status {
+		margin-top: 30px;
+
+		&__title {
+			line-height: 1.5;
+			margin-bottom: 5px;
+
+			&.success {
+				color: green;
+			}
+
+			&.failed {
+				color: red;
+			}
+		}
+
+		&__para {
+			font-size: 14px;
+			line-height: 1.5;
+		}
+	}
+}
